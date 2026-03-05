@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<script>
+function rollDice() {
+  var dice = Math.floor(Math.random() * 6) + 1;
+  document.getElementById("diceResult").innerHTML = dice;
+}
+</script><!DOCTYPE html>
 <html>
 <head>
 <title>Ludo Game</title>
