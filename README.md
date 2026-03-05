@@ -80,3 +80,5 @@ document.getElementById("result").innerHTML="Dice: "+dice;
 
 </body>
 </html>
+<button onclick="rollDice()">Roll Dice</button>
+<p id="diceResult">0</p>
